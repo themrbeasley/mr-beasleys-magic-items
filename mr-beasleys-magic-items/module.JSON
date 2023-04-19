@@ -22,7 +22,7 @@
       "type": "Item",
       "label": "Mr. Beasley's Magic Items",
       "name": "mr-beasleys-magic-items",
-      "path": "packs/mr-beasleys-magic-items.db",
+      "path": "./packs/mr-beasleys-magic-items.db",
       "private": false,
       "flags": {}
     }
@@ -37,16 +37,9 @@
       }
     }],
     "requires": [{
-      "id": "JB2A_DnD5e",
-      "type": "module",
-      "manifest": "https://github.com/Jules-Bens-Aa/JB2A_DnD5e/releases/latest/download/module.json",
-      "compatibility": {
-        "verified": "0.4.6"
-      }
-    }, {
       "id": "compendium-folders",
       "type": "module",
-      "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/10x-update/module.jso",
+      "manifest": "https://raw.githubusercontent.com/earlSt1/vtt-compendium-folders/10x-update/module.json",
       "compatibility": {
         "verified": "2.5.4"
       }
